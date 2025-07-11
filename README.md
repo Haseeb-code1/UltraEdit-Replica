@@ -43,7 +43,7 @@ ultraedit-replica/
 │ ├── linkdin.png
 │ ├── twiter.png
 🌐 Live Demo
-Add your Vercel or GitHub Pages link here once deployed.
+https://ultra-edit-replica.vercel.app/
 
 🙋‍♂️ Author
 Haseeb Tariq
