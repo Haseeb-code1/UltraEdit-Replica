@@ -1,0 +1,639 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+        nav{
+    display: flex;
+    height: 20vh;
+    width: 100vw;
+    justify-content: space-evenly;
+
+
+}
+ul{
+    display: flex;
+    list-style: none;
+align-items: center;
+justify-content:space-around;
+
+}
+li{
+margin: 2vh ;
+}
+#logo{
+    width: 20vw;
+    height: 10vh;
+}
+#buybutton{
+    padding:0.5rem 1rem;
+    border: solid black;
+    font-weight:bold;
+    background-color: white;
+}
+#searchinput{
+    border-radius: 1rem;
+    padding: 0.3rem;
+    
+}
+.main{
+height: 80vh;
+width: 100vw;
+border: solid rgba(215, 22, 22, 0);
+display: grid;
+
+}
+.a1{
+    display: grid;
+    grid-template-columns:auto auto auto;
+
+    gap: 1vh 1vw;
+    align-items: center;
+    
+    
+}
+.iner{
+    margin-top: 1em;
+    height: 17vh;
+    width: 30vw;
+    background-color: #f9f9f9;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 40vh;
+}
+#herohead{
+    font-size: 46px;
+    
+    
+}
+#secbutton{
+color: white;
+background-color:#00b6d1;
+padding: 18px;
+margin-top: 30px;
+border-radius: 10px;
+border:2px solid #f9f9f9;
+}
+#heropara{
+    font-size: 16px;
+}
+
+.section1{
+    display: flex;
+    justify-content: center;
+}
+#section1logo{
+height: 10vh;
+position: relative;
+top: -20px;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height:120vh;
+    color: #f9f9f9;
+    background-color: rgba(16, 15, 15, 0.901);
+}
+.section2>h3{
+    margin: 30px;
+    font-size: 30px;
+}
+#section2para{
+    font-size: 16px;
+    margin: 10px;
+    margin-left: 30vw;
+}
+.signup{
+    width: 20vw;
+    background-color: #f9f9f9;
+    height: 35vh;
+    margin: 10vh auto;
+    color: black;
+    border-radius: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.signup h4{
+    color: #00b6d1;
+    position: relative;
+    top: -20px;
+    font-size: 28px;
+font-weight: 900;
+}
+#signpara{
+    font-size: 16px;
+    font-weight: 100;
+color: #00000071;
+}
+.signup input{
+    height: 6vh;
+    width: 15vw;
+    border: 0.1px solid rgba(12, 12, 12, 0.225);
+    
+}
+.signup button{
+    background-color: #00b6d1;
+    color: white;
+    padding:10px 30px;
+    margin-top: 10px;
+    font-weight: 900;
+    width: 15vw;
+    border-radius: 7px;
+    border: #00b6d1;
+    height: 6vh;
+}
+.section2 h4{
+    margin-top: 12px;
+    margin-left: 2vw;
+    font-size: 24px;
+}
+.section2 p{
+    font-size: 18px;
+    margin-left: 2%;
+    margin-top:10px;
+    margin-bottom: 0;
+}
+footer{
+    width: 100vw;
+    height: 75vh;
+
+}
+#biggrid{
+    display:grid;
+    grid-template-columns: 15vw 15vw 15vw 15vw 15vw;
+
+}
+#biggrid div h5{
+    font-weight: 700;
+    font-size: 16px;
+
+}
+#biggrid div a{
+    font-size: 10px;
+    color: rgba(44, 44, 44, 0.715);
+}
+footer div{
+    
+    margin: 5vh 5vw;
+    display: grid;
+    grid-template-columns: 20vw;
+}
+footer div a{
+    color: black;
+}
+.footer2 div{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#otherlogo1{
+    height: 10vh;
+    margin-right:45vw;
+}
+#otherlogo2{
+    height: 11vh;
+}
+#otherlogo3{
+    height: 11vh;
+}
+#otherlogo4{
+    height: 9vh;
+}
+
+#otherlogo5{
+    height: 8vh;
+    margin-left: 0.3vw;
+}
+#copyright{
+    margin-top: 0;
+font-size: 18px;
+}
+#powerby{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#footerbutton{
+background-color:#00b6d1 ;
+color: #f7f3f3;
+font-weight: 900;
+border: #00b6d1;
+border-radius: 7px;
+margin-top: 2vh;
+}
+
+@media (max-width: 800px){
+
+
+nav{
+    width: 213vw;
+}
+
+
+    .a1{
+
+
+    grid-template-columns: auto;}
+ .main{
+
+    width: 100vh;
+    height: 90rem;
+    justify-content: center;
+ } 
+ .iner{
+    width: 80vw;
+ }  
+ .downloadversion{
+    font-size: 0.62rem !important;
+ }
+ .hero{
+margin-left: 55vw;
+    }
+    #herohead{
+        
+        font-size: 2rem;
+    }
+    #secbutton a{
+        font-size: 1.3rem;
+        padding-top: 2vh;
+
+    }
+        #logo{
+        width: 30vw;
+    }
+    #searchinput{
+        width: 10rem;
+    }
+    
+    
+    
+    .iner{
+        margin-left: 70vw;;
+        width:44rem;
+        height: 14rem;
+
+    }
+    
+    .main{
+        height: 170rem;
+    }
+    .section2{
+        width:225vw;
+    
+    }
+    #signpara{
+        position: relative;
+        left: -1.8rem;
+    }
+    .signup{
+        width: 100vw;
+    }
+    .signup input{
+width: 70vw;
+    }
+    .signup button{
+        width: 60vw;
+    }
+    .section2 h4{
+
+    margin-left: 2rem;
+   
+}
+.section2 p{   
+    margin-left: 3rem;
+}
+#footeremail{
+    width: 12rem;
+    margin-bottom: 2vh;
+}
+#footerbutton{
+width: 12rem;
+text-align: center;
+}
+footer{
+    width:220vw;
+}
+#biggrid{
+ 
+    grid-template-columns: 35vw 35vw 35vw 35vw 45vw;
+
+}
+
+.downloadversion{
+        font-size: 1rem!important;
+    }
+    #section1logo{
+        margin-top: 3vh;
+        left: 60vw;
+        word-wrap: break-word;
+    }#otherlogo1{
+    height: 15vh;
+    
+}
+#otherlogo2{
+    height: 10vh;
+    position: relative;
+    left: 48vw;
+}
+#otherlogo3{
+    height: 10vh;
+    position: relative;
+    left: 11rem;
+}
+#otherlogo4{
+    height: 9vh;
+    position: relative;
+    left: 11rem;
+}
+
+#otherlogo5{
+    height: 8vh;
+    position: relative;
+    left: 12rem;
+}
+#copyright{
+    display: inline;
+    word-wrap: normal;
+    margin-top: 0;
+font-size: 1.2rem;
+position: relative;
+top: -2.7rem;
+
+}
+#powerby{ display: inline;
+    text-align: center;
+    color: blue;
+    font-weight: 900;
+    font-size: 25px;
+    margin-left: 26rem;
+    margin-bottom: 20px;
+   
+}
+#biggrid div h5{
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(2, 2, 2);
+
+}
+#biggrid div a{
+    font-size: 15px !important;
+    color: rgba(44, 44, 44, 0.715);
+}
+
+    #section1head{
+        top: 2vh;
+        position: relative;
+        left: 70vw;
+    }    #section2para{
+        font-size:1.3rem ;
+    }
+
+    .downloadbutton{
+
+    background-color: #5cb85c;
+    color: white;
+    padding: 8px 34px;
+    border-radius: 0.7rem;
+    margin-bottom: 2vh;
+}
+
+a{
+    font-weight: 888;
+    color: white;
+    text-decoration: none;
+    font-size: 20px !important;
+} 
+#section1head{
+    position: relative;
+    top: 3rem;
+    font-size: 2rem;
+}
+    
+
+
+
+
+
+
+}
+@media(max-width:500px){
+    #logo{
+        width: 30vw;
+    }
+    #searchinput{
+        width: 10rem;
+    }
+    
+    
+    
+    
+    .hero{
+margin-left: 70vw;
+    }
+    #herohead{
+        
+        font-size: 2rem;
+    }
+    #secbutton a{
+        font-size: 1.3rem;
+        padding-top: 2vh;
+
+    }
+    .iner{
+        position: relative;
+        left: -6rem;
+        width:34rem;
+        height: 14rem;
+
+    }
+    #section1head{
+        font-size: 1.2rem;
+    }
+    
+    .main{
+        height: 170rem;
+    }
+    .section2{
+        width:225vw;
+    
+    }
+    #signpara{
+        position: relative;
+        left: -1.8rem;
+    }
+    .signup{
+        width: 100vw;
+    }
+    .signup input{
+width: 70vw;
+    }
+    .signup button{
+        width: 60vw;
+    }
+    .section2 h4{
+
+    margin-left: 2rem;
+   
+}
+.section2 p{   
+    margin-left: 3rem;
+}
+#footeremail{
+    width: 12rem;
+    margin-bottom: 2vh;
+}
+#footerbutton{
+width: 12rem;
+text-align: center;
+}
+footer{
+    width:220vw;
+}
+#biggrid{
+ 
+    grid-template-columns: 35vw 35vw 35vw 35vw 45vw;
+
+}
+
+.downloadversion{
+        font-size: 1rem!important;
+    }
+    #section1logo{
+        margin-top: 3vh;
+        left: 60vw;
+        word-wrap: break-word;
+    }#otherlogo1{
+    height: 15vh;
+    
+}
+#otherlogo2{
+    height: 10vh;
+    position: relative;
+    left: 48vw;
+}
+#otherlogo3{
+    height: 10vh;
+    position: relative;
+    left: 11rem;
+}
+#otherlogo4{
+    height: 9vh;
+    position: relative;
+    left: 11rem;
+}
+
+#otherlogo5{
+    height: 8vh;
+    position: relative;
+    left: 12rem;
+}
+#copyright{
+    display: inline;
+    word-wrap: normal;
+    margin-top: 0;
+font-size: 1.2rem;
+position: relative;
+top: -2.7rem;
+
+}
+#powerby{ display: inline;
+    text-align: center;
+    color: blue;
+    font-weight: 900;
+    font-size: 25px;
+    margin-left: 26rem;
+    margin-bottom: 20px;
+   
+}
+#biggrid div h5{
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(2, 2, 2);
+
+}
+#biggrid div a{
+    font-size: 15px !important;
+    color: rgba(44, 44, 44, 0.715);
+}
+
+    #section1head{
+        top: 2vh;
+        position: relative;
+        left: 70vw;
+    }    #section2para{
+        font-size:1.3rem ;
+    }
+
+    .downloadbutton{
+
+    background-color: #5cb85c;
+    color: white;
+    padding: 8px 34px;
+    border-radius: 0.7rem;
+    margin-bottom: 2vh;
+}
+
+a{
+    font-weight: 888;
+    color: white;
+    text-decoration: none;
+    font-size: 20px !important;
+} 
+    
+}
+h3{
+    text-align: center;
+    margin: 0.3rem;
+}
+#space{
+    height: 1rem;
+
+}
+.download{
+display: flex;
+justify-content: center;
+}
+.downloadversion{
+
+    text-align: center;
+    text-wrap:auto;
+text-transform: capitalize;
+font-size: 0.7rem;
+
+
+}
+.downloadbutton{
+
+    background-color: #5cb85c;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 0.7rem;
+}
+a{
+    font-weight: 888;
+    color: white;
+    text-decoration: none;
+    font-size: 14px
+}
+@media(max-width:1400px)
+{
+    .downloadversion{
+        font-size: 1.2rem !important;
+        word-wrap: break-word;
+    }
+}
+
+
+    
+
+
+
