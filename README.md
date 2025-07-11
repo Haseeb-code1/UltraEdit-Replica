@@ -1,4 +1,4 @@
-<img width="4286" height="5750" alt="replica of ultra edit" src="https://github.com/user-attachments/assets/d6c5047e-5681-4b9a-8739-a30382e294ee" /># 🖥️ UltraEdit Replica – One Page Responsive UI
+🖥️ UltraEdit Replica – One Page Responsive UI
 
 A **fully responsive** replica of the [UltraEdit] built using **HTML and CSS only**. This project demonstrates front-end skills in layout, responsiveness, and design without using any JavaScript framework or backend logic.
 
